@@ -33,12 +33,3 @@ The data is structured as follows:
  ●   **Physical Metadata**: Includes unit cell length (H), reentrant angle (θ), strut thickness (t), sampling frequency (Fs), and signal duration (Ts)
 
  ●   **Data Source**:  In-house measurements from the AVIP Lab
-
-**Test Dataset:**
-
- ●   **Re-entrant Structures**: Varying unit cell geometries (e.g., 10 mm, 12 mm, 15 mm)
-
- ●   **Honeycomb Structures**: Different strut lengths and angles to evaluate generalization capability
-
- ●   **Benchmark Structures**: Additional auxetic configurations for cross-validation and robustness testing
-
