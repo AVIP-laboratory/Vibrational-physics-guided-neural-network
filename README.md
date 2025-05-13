@@ -26,8 +26,7 @@ The VPGNN framework is trained using experimentally measured impulse response da
 
 The data is structured as follows:
 
-**Training and Validation Dataset:
-**
+**Training and Validation Dataset:**
 
  ●   **Experimental Impulse Response Data**: Raw time-displacement signals collected from impact hammer tests
 
@@ -35,8 +34,7 @@ The data is structured as follows:
 
  ●   **Data Source**: In-house curated dataset (AVIP Lab, Heilbronn University)
 
-**Test Dataset:
-**
+**Test Dataset:**
 
  ●   **Re-entrant Structures**: Varying unit cell geometries (e.g., 10 mm, 12 mm, 15 mm)
 
