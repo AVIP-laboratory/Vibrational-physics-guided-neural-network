@@ -9,4 +9,5 @@ This repository provides a physics-guided deep learning framework (VPGNN) for an
 ● **Efficient Data Utilization**: Combines empirical data and analytical models for data-efficient learning
 
 ● **Scalable and Interpretable**: Suitable for complex, nonlinear systems like soft auxetic metamaterials
+
 ● Result saving and visualization (CSV, Matplotlib)
