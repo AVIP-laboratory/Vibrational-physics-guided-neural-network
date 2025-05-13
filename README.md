@@ -28,17 +28,17 @@ The data is structured as follows:
 
 **Training and Validation Dataset:
 **
- ● **Experimental Impulse Response Data**: Raw time-displacement signals collected from impact hammer tests
+ ●   **Experimental Impulse Response Data**: Raw time-displacement signals collected from impact hammer tests
 
- ● **Physical Metadata**: Includes unit cell length (H), reentrant angle (θ), strut thickness (t), sampling frequency (Fs), and signal duration (Ts)
+ ●   **Physical Metadata**: Includes unit cell length (H), reentrant angle (θ), strut thickness (t), sampling frequency (Fs), and signal duration (Ts)
 
- ● **Data Source**: In-house curated dataset (AVIP Lab, Heilbronn University)
+ ●   **Data Source**: In-house curated dataset (AVIP Lab, Heilbronn University)
 
 **Test Dataset:
 **
- ● **Re-entrant Structures**: Varying unit cell geometries (e.g., 10 mm, 12 mm, 15 mm)
+ ●   **Re-entrant Structures**: Varying unit cell geometries (e.g., 10 mm, 12 mm, 15 mm)
 
- ● **Honeycomb Structures**: Different strut lengths and angles to evaluate generalization capability
+ ●   **Honeycomb Structures**: Different strut lengths and angles to evaluate generalization capability
 
- ● **Benchmark Structures**: Additional auxetic configurations for cross-validation and robustness testing
+ ●   **Benchmark Structures**: Additional auxetic configurations for cross-validation and robustness testing
 
