@@ -11,3 +11,9 @@ This repository provides a physics-guided deep learning framework (VPGNN) for an
 ● **Scalable and Interpretable**: Suitable for complex, nonlinear systems like soft auxetic metamaterials
 
 ● Result saving and visualization (CSV, Matplotlib)
+
+# Requirements
+● Python 3.9
+● tenseorflow
+● numpy
+● matplotlib
