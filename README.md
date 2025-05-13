@@ -20,3 +20,7 @@ This repository provides a physics-guided deep learning framework (VPGNN) for an
 ● numpy
 
 ● matplotlib
+
+# Data description
+The VPGNN framework is trained using experimentally measured impulse response data from 3D-printed soft auxetic metamaterials. The dataset consists of time-domain signals and associated physical metadata, allowing the network to learn both temporal patterns and their physical context.
+
