@@ -14,6 +14,9 @@ This repository provides a physics-guided deep learning framework (VPGNN) for an
 
 # Requirements
 ● Python 3.9
+
 ● tenseorflow
+
 ● numpy
+
 ● matplotlib
