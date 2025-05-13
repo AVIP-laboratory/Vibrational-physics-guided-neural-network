@@ -28,6 +28,7 @@ The data is structured as follows:
 
 **Training and Validation Dataset:
 **
+
  ●   **Experimental Impulse Response Data**: Raw time-displacement signals collected from impact hammer tests
 
  ●   **Physical Metadata**: Includes unit cell length (H), reentrant angle (θ), strut thickness (t), sampling frequency (Fs), and signal duration (Ts)
@@ -36,6 +37,7 @@ The data is structured as follows:
 
 **Test Dataset:
 **
+
  ●   **Re-entrant Structures**: Varying unit cell geometries (e.g., 10 mm, 12 mm, 15 mm)
 
  ●   **Honeycomb Structures**: Different strut lengths and angles to evaluate generalization capability
