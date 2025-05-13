@@ -32,7 +32,7 @@ The data is structured as follows:
 
  ●   **Physical Metadata**: Includes unit cell length (H), reentrant angle (θ), strut thickness (t), sampling frequency (Fs), and signal duration (Ts)
 
- ●   **Data Source**: In-house curated dataset (AVIP Lab, Heilbronn University)
+ ●   **Data Source**:  In-house measurements from the AVIP Lab
 
 **Test Dataset:**
 
