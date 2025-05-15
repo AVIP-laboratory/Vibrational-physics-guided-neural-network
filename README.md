@@ -37,7 +37,7 @@ The data is structured as follows:
 
  # Code description
 ### Training VPGNN
- `VPGNN_auxetic.py` is a code for deriving dynamic properties of 3D-printed soft auxetic metastructures. It contains information about the model architecture, loss function, and training process.
+ `/Training/VPGNN_auxetic.py` is a code for deriving dynamic properties of 3D-printed soft auxetic metastructures. It contains information about the model architecture, loss function, and training process.
 
  # Saved model
  The `/trained model/` folder contains the trained models that constitute the VPGNN. The trained models are saved as `.h5` file.
