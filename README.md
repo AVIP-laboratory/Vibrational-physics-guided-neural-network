@@ -28,8 +28,20 @@ The data is structured as follows:
 
 **Training Dataset:**
 
- ●   **Experimental Impulse Response Data**: Raw time-displacement signals collected from impact hammer tests
+ ●   **Experimental Impulse Response Data**: Raw time-displacement signals collected from impact hammer tests.
+ Experimental Impulse Response Data is located in the `/Experimental data/` folder and provides access to information on all unit cell sizes of the re-entrant and honeycomb.
 
  ●   **Physical Metadata**: Includes unit cell length (H), reentrant angle (θ), strut thickness (t), sampling frequency (Fs), and signal duration (Ts)
 
  ●   **Data Source**:  In-house measurements from the AVIP Lab
+
+ # Code description
+### Training VPGNN
+ `VPGNN_auxetic.py` is a code for deriving dynamic properties of 3D-printed soft auxetic metastructures. It contains information about the model architecture, loss function, and training process.
+
+ # Saved model
+ The `/trained model/` folder contains the trained models that constitute the VPGNN. The trained models are saved as `.h5` file.
+
+# Training reults
+![image](https://github.com/user-attachments/assets/1fe6ad42-a930-4290-b986-c6ccddeda4af)
+Figure 6. Representative results of the VPGNN for the re-entrant auxetic specimen with a unit cell size of 10 mm. (a) Predicted dynamic properties according to training iterations: (a) natural frequency 𝜔<sub>𝑛</sub>, (b) damping ratio 𝜁. (c) Comparison between the measured impulse response and the reconstructed response using the predicted dynamic properties at different iterations.
