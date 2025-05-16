@@ -7,27 +7,23 @@ import matplotlib.pyplot as plt
 from sklearn.metrics import r2_score
 from tensorflow.keras.layers import Dense, Concatenate, Input, Conv1D, Flatten
 
-# 데이터 로드 및 전처리
 data = pd.read_csv(r'D:\도현\AVIP LAB\1. AUXETIC\실험data\최종데이터 for Origin\emd\hc15/hc15_10_time_displacement.csv', header=None)
 data.columns = ['Time', 'Displacement']
 measured_displacement = data['Displacement'].values.astype(np.float64)
 
-# 샘플링 주파수 설정
 sampling_frequency = 12800
 meta_time = 0.4
 unit_cell_thickness = 1.0  # 단위 셀 두께 t
 unit_cell_height = 15.0  # 단위 셀 길이 H
 reentrant_angle = 60.0  # 재진입 각도 θ
 
-# 메타데이터 배열 생성 (샘플링 주파수 + 기하학적 정보)
 metadata = np.array([sampling_frequency, meta_time, unit_cell_thickness, unit_cell_height, reentrant_angle])
 
 
-# 입력 데이터 구성 (변위 데이터만 사용)
 conv_input_data = measured_displacement.reshape(1, -1, 1)
 print(conv_input_data.shape)
 metadata_input_data = metadata.reshape(1, -1)
-# 신경망 모델 정의
+
 class FrequencyDampingModel(Model):
     def __init__(self):
         super(FrequencyDampingModel, self).__init__()
@@ -69,7 +65,6 @@ class FrequencyDampingModel(Model):
         return freq, damp
 
 
-# 모델 학습을 위한 Trainer 클래스
 class ModelTrainer:
     def __init__(self):
         self.F = 0.00026919  # 충격량
@@ -143,7 +138,6 @@ class ModelTrainer:
             'Damping': [i[1] for i in mid_damp_history]
         })
 
-# 모델 학습 실행
 def main():
     max_num = 15000
     trainer = ModelTrainer()
