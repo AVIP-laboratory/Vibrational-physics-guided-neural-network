@@ -1,10 +1,17 @@
 import tensorflow as tf
+
 from tensorflow.keras.models import Model
+
 from tensorflow.keras.optimizers import Adam
+
 import numpy as np
+
 import pandas as pd
+
 import matplotlib.pyplot as plt
+
 from sklearn.metrics import r2_score
+
 from tensorflow.keras.layers import Dense, Concatenate, Input, Conv1D, Flatten
 
 data = pd.read_csv(r'D:\도현\AVIP LAB\1. AUXETIC\실험data\최종데이터 for Origin\emd\hc15/hc15_10_time_displacement.csv', header=None)
