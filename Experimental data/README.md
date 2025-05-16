@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/eecfb519-45e9-4fff-933d-78564f1ad1ae)# Data description
+# Data description
 The VPGNN framework is trained using experimentally measured impulse response data from 3D-printed soft auxetic metamaterials. The dataset consists of time-domain signals and associated physical metadata, allowing the network to learn both temporal patterns and their physical context.
 
 The data is structured as follows:
