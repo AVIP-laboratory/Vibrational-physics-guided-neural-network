@@ -1,4 +1,4 @@
-# Data description
+![image](https://github.com/user-attachments/assets/eecfb519-45e9-4fff-933d-78564f1ad1ae)# Data description
 The VPGNN framework is trained using experimentally measured impulse response data from 3D-printed soft auxetic metamaterials. The dataset consists of time-domain signals and associated physical metadata, allowing the network to learn both temporal patterns and their physical context.
 
 The data is structured as follows:
@@ -9,5 +9,7 @@ The data is structured as follows:
  Experimental Impulse Response Data is located in the `/Experimental data/` folder and provides access to information on all unit cell sizes of the re-entrant and honeycomb.
 
  ●   **Physical Metadata**: Includes unit cell length (H), reentrant angle (θ), strut thickness (t), sampling frequency (Fs), and signal duration (Ts)
+ ![image](https://github.com/user-attachments/assets/73d76eff-0ba1-4d4f-8dc9-8ffd91885290)
+
 
  ●   **Data Source**:  In-house measurements from the AVIP Lab
