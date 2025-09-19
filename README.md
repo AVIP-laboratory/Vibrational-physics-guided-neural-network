@@ -47,13 +47,11 @@ The data is structured as follows:
 Figure 1. Representative results of the VPGNN for the re-entrant auxetic specimen with a unit cell size of 10 mm. (a) Predicted dynamic properties according to training iterations: (a) natural frequency 𝜔<sub>𝑛</sub>, (b) damping ratio 𝜁. (c) Comparison between the measured impulse response and the reconstructed response using the predicted dynamic properties at different iterations.
 
 # Data driven model
-<img width="650" height="677" alt="image" src="https://github.com/user-attachments/assets/554d02e2-77e9-48ef-b9f6-995df7621ed5" />
-
+<img width="650" height="677" alt="image" src="https://github.com/user-attachments/assets/cdfa7f0c-da78-4db7-a2b7-7789f7bc0563" />
 Figure 2. Network architecture of the data-driven approach.
 
 # Noise injection test results
 <img width="1128" height="911" alt="image" src="https://github.com/user-attachments/assets/1b98a637-0f55-4a89-ba13-cc262e3d6872" />
-
 Figure 3. Comparison of measured and reconstructed impulse responses for the re-entrant auxetic specimen with a unit cell size of 10 mm under various SNR conditions using (a) VPGNN, (b) data-driven approach, (c) curve fitting, and (d) Prony’s method. 
 
 
