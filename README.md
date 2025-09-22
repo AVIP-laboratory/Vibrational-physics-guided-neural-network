@@ -6,7 +6,7 @@ This repository provides a physics-guided deep learning framework (VPGNN) for an
 
 ● **Metadata-Enhanced Predictions**: Integrates physical metadata for improved accuracy and generalization
 
-● **Efficient Data Utilization**: Combines empirical data and analytical models for data-efficient learning
+● **Efficient Data Utilization**: Combines experimental data and analytical models for data-efficient learning
 
 ● **Noise-Robust Performance**: Demonstrated stable predictions under Gaussian noise (SNR = 0, -5, -10 dB)
 
