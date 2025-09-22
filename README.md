@@ -35,6 +35,8 @@ The data is structured as follows:
 
  ●   **Physical Metadata**: Includes unit cell length (H), reentrant angle (θ), strut thickness (t), sampling frequency (Fs), and signal duration (Ts)
 
+ ●   **Noisy Data**:  Impulse response signals with added Gaussian noise (SNR = 0, -5, -10 dB) were also included for robustness evaluation
+
  ●   **Data Source**:  In-house measurements from the AVIP Lab
 
  # Code description
